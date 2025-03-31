@@ -4162,7 +4162,7 @@
       "type": 0,
       "variance": 20
     },
-    "description": "Un ataque de arco de gran delicadeza que solo se puede realizar con armas de hoja ligera.",
+    "description": "Un ataque de arco de gran delicadeza que solo se puede realizar\ncon armas de hoja ligera.",
     "effects": [{ "code": 44, "dataId": 147, "value1": 1, "value2": 0 }],
     "hitType": 0,
     "iconIndex": 4,
