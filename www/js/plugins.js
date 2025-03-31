@@ -1003,7 +1003,7 @@ var $plugins =
         "JP": "2",
         "Exp Bar Height": "10",
         "Show Exp Text": "true",
-        "Exp Text": "Hunger",
+        "Exp Text": "Hambre",
         "Max Exp Text": "",
         "Exp Bar Color 1": "22",
         "Exp Bar Color 2": "22",
