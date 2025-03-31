@@ -1,0 +1,931 @@
+[
+  null,
+  {
+    "id": 1,
+    "atypeId": 3,
+    "description": "Diseño de chaleco sencillo. Hecho de cuero endurecido.\nEficaz contra el fuego.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 11, "dataId": 4, "value": 0.6 },
+      { "code": 11, "dataId": 2, "value": 0.92 },
+      { "code": 11, "dataId": 3, "value": 0.92 },
+      { "code": 11, "dataId": 1, "value": 0.92 }
+    ],
+    "iconIndex": 207,
+    "name": "Chaleco de Cuero",
+    "note": "",
+    "params": [0, 0, 0, 20, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 2,
+    "atypeId": 3,
+    "description": "Un taparrabos de torturadores con correas.\nMuestra mucha piel y músculo.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 3, "value": 0.97 },
+      { "code": 11, "dataId": 1, "value": 0.97 }
+    ],
+    "iconIndex": 205,
+    "name": "Taparrabo",
+    "note": "",
+    "params": [0, 0, 0, 5, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 3,
+    "atypeId": 3,
+    "description": "Una túnica oscura usada por sacerdotes oscuros. De diseño\nminimalista. Ofrece algo de calor.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 6, "value": 0.95 }
+    ],
+    "iconIndex": 204,
+    "name": "Túnica de sacerdote",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 5, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 4,
+    "atypeId": 3,
+    "description": "Armadura de la parte superior del cuerpo hecha con cuero\nendurecido. Gran protección contra el fuego.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 11, "dataId": 4, "value": 0.25 },
+      { "code": 11, "dataId": 2, "value": 0.92 },
+      { "code": 11, "dataId": 3, "value": 0.92 },
+      { "code": 11, "dataId": 1, "value": 0.92 }
+    ],
+    "iconIndex": 206,
+    "name": "Armadura de cuero duro",
+    "note": "",
+    "params": [0, 0, 0, 20, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 5,
+    "atypeId": 3,
+    "description": "Hecho de pieles pálidas. Úsalo para esconder tu olor de\nghouls y criaturas por igual.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 3, "value": 0.97 },
+      { "code": 11, "dataId": 1, "value": 0.97 },
+      { "code": 11, "dataId": 2, "value": 0.97 }
+    ],
+    "iconIndex": 193,
+    "name": "Traje de ghoul",
+    "note": "<Synthesis Ingredients>\nitem 46: 2\n</Synthesis Ingredients>",
+    "params": [0, 0, 0, 5, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 6,
+    "atypeId": 3,
+    "description": "Hecho de piel de guardia. Úsalo para esconder tu olor de\nguardias.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 3, "value": 0.97 },
+      { "code": 11, "dataId": 1, "value": 0.97 },
+      { "code": 11, "dataId": 2, "value": 0.97 }
+    ],
+    "iconIndex": 192,
+    "name": "Traje de guardia",
+    "note": "<Synthesis Ingredients>\nitem 45: 2\n</Synthesis Ingredients>",
+    "params": [0, 0, 0, 5, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 7,
+    "atypeId": 3,
+    "description": "Una capucha hecha de piezas de tela cosidas.",
+    "etypeId": 3,
+    "traits": [
+      { "code": 11, "dataId": 1, "value": 0.98 },
+      { "code": 11, "dataId": 2, "value": 0.98 },
+      { "code": 11, "dataId": 3, "value": 0.98 }
+    ],
+    "iconIndex": 214,
+    "name": "Capucha de tela",
+    "note": "",
+    "params": [0, 0, 0, 5, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 8,
+    "atypeId": 3,
+    "description": "Un casco hecho de cuero. No te queda bien, es demasiado\nflojo.",
+    "etypeId": 3,
+    "traits": [
+      { "code": 11, "dataId": 2, "value": 0.95 },
+      { "code": 11, "dataId": 3, "value": 0.95 },
+      { "code": 11, "dataId": 1, "value": 0.95 }
+    ],
+    "iconIndex": 215,
+    "name": "Casco de cuero",
+    "note": "",
+    "params": [0, 0, 0, 10, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 9,
+    "atypeId": 0,
+    "description": "Una sencilla capa para mantenerte abrigado.",
+    "etypeId": 5,
+    "traits": [],
+    "iconIndex": 0,
+    "name": "Capa de tela",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 10,
+    "atypeId": 3,
+    "description": "Un talismán de estilo oriental con decoraciones que\nrepresentan un eclipse de sol.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 6, "value": 0.9 }
+    ],
+    "iconIndex": 254,
+    "name": "Talismán Eclipse",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 12, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 11,
+    "atypeId": 3,
+    "description": "Una tosca corona esculpida en piedra. El estilo de la\ncorona sugiere una cultura primitiva.",
+    "etypeId": 3,
+    "traits": [
+      { "code": 11, "dataId": 2, "value": 0.9 },
+      { "code": 11, "dataId": 3, "value": 0.9 },
+      { "code": 11, "dataId": 1, "value": 0.9 }
+    ],
+    "iconIndex": 252,
+    "name": "Corona de Piedra",
+    "note": "",
+    "params": [0, 0, 0, 15, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 12,
+    "atypeId": 3,
+    "description": "Una armadura hecha de cuero y pieles de lobo. Ofrece\ncalidez, pero es débil contra el fuego.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 11, "dataId": 4, "value": 1.6 },
+      { "code": 11, "dataId": 2, "value": 0.92 },
+      { "code": 11, "dataId": 3, "value": 0.92 },
+      { "code": 11, "dataId": 1, "value": 0.92 }
+    ],
+    "iconIndex": 235,
+    "name": "Armadura de Piel",
+    "note": "",
+    "params": [0, 0, 0, 20, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 13,
+    "atypeId": 3,
+    "description": "Una túnica oscura utilizada por los sacerdotes oscuros\nsuperiores. De diseño minimalista.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 2, "value": 0.95 },
+      { "code": 11, "dataId": 3, "value": 0.95 },
+      { "code": 11, "dataId": 1, "value": 0.95 },
+      { "code": 11, "dataId": 6, "value": 0.9 }
+    ],
+    "iconIndex": 234,
+    "name": "Túnica de sumo sacerdote",
+    "note": "",
+    "params": [0, 0, 0, 5, 0, 12, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 14,
+    "atypeId": 4,
+    "description": "Una armadura de placas ofrece una gran defensa, pero es \nbastante torpe de usar.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 11, "dataId": 2, "value": 0.65 },
+      { "code": 11, "dataId": 3, "value": 0.7 },
+      { "code": 11, "dataId": 1, "value": 0.8 }
+    ],
+    "iconIndex": 236,
+    "name": "Armaduras de placas",
+    "note": "",
+    "params": [0, 0, 0, 40, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 15,
+    "atypeId": 3,
+    "description": "Pieza negra muy sencilla.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 2, "value": 0.99 },
+      { "code": 11, "dataId": 3, "value": 0.99 }
+    ],
+    "iconIndex": 255,
+    "name": "Vestido negro",
+    "note": "",
+    "params": [0, 0, 0, 1, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 16,
+    "atypeId": 5,
+    "description": "Un simple escudo improvisado. Es mejor que nada.",
+    "etypeId": 2,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 2, "value": 0.94 },
+      { "code": 11, "dataId": 3, "value": 0.94 },
+      { "code": 11, "dataId": 1, "value": 0.94 }
+    ],
+    "iconIndex": 200,
+    "name": "Escudo de madera",
+    "note": "",
+    "params": [0, 0, 0, 5, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 17,
+    "atypeId": 5,
+    "description": "Un escudo de hierro con la insignia de una araña negra.\nEl escudo es ligero de usar y ofrece una buena protección.",
+    "etypeId": 2,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 2, "value": 0.87 },
+      { "code": 11, "dataId": 3, "value": 0.87 },
+      { "code": 11, "dataId": 1, "value": 0.87 }
+    ],
+    "iconIndex": 199,
+    "name": "Escudo araña",
+    "note": "",
+    "params": [0, 0, 0, 15, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 18,
+    "atypeId": 5,
+    "description": "Escudo usado por los Caballeros del sol de medianoche\nEl escudo tiene una insignia de un águila y una espada.",
+    "etypeId": 2,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 2, "value": 0.8 },
+      { "code": 11, "dataId": 3, "value": 0.8 },
+      { "code": 11, "dataId": 1, "value": 0.8 }
+    ],
+    "iconIndex": 256,
+    "name": "Escudo Emblema de Águila",
+    "note": "",
+    "params": [0, 0, 0, 20, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 19,
+    "atypeId": 3,
+    "description": "Un muñeco encontrada en las celdas. Representa a un\nhombre de cabello largo castaño. Da vibras espeluznantes.",
+    "etypeId": 5,
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
+    "iconIndex": 258,
+    "name": "Muñeco peculiar",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 20,
+    "atypeId": 3,
+    "description": "Un ojo siempre vigilante te está cuidando. Parece que\nalivia tus sentimientos de miedo y terror...",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 14, "dataId": 63, "value": 1 }
+    ],
+    "iconIndex": 272,
+    "name": "Talismán Eterno",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 21,
+    "atypeId": 4,
+    "description": "Un par de protectores de brazos para evitar lesiones\ngraves.\n",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 14, "dataId": 3, "value": 1 },
+      { "code": 11, "dataId": 2, "value": 0.9 },
+      { "code": 11, "dataId": 3, "value": 0.9 },
+      { "code": 11, "dataId": 1, "value": 0.9 }
+    ],
+    "iconIndex": 270,
+    "name": "Protectores de brazos",
+    "note": "",
+    "params": [0, 0, 0, 10, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 22,
+    "atypeId": 4,
+    "description": "Un par de protectores de piernas para evitar lesiones\ngraves.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 14, "dataId": 14, "value": 1 },
+      { "code": 11, "dataId": 2, "value": 0.9 },
+      { "code": 11, "dataId": 3, "value": 0.9 },
+      { "code": 11, "dataId": 1, "value": 0.9 }
+    ],
+    "iconIndex": 271,
+    "name": "Protectores de piernas",
+    "note": "",
+    "params": [0, 0, 0, 10, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 23,
+    "atypeId": 3,
+    "description": "La capucha brinda a sus usuarios una gran protección pero\nes un poco incómoda.",
+    "etypeId": 3,
+    "traits": [
+      { "code": 11, "dataId": 2, "value": 0.9 },
+      { "code": 11, "dataId": 3, "value": 0.8 },
+      { "code": 11, "dataId": 1, "value": 0.98 }
+    ],
+    "iconIndex": 262,
+    "name": "Capucha de malla",
+    "note": "",
+    "params": [0, 0, 0, 17, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 24,
+    "atypeId": 4,
+    "description": "Un casco pesado que no solo da una gran protección,\ntambién evita la confusión y el aturdimiento.",
+    "etypeId": 3,
+    "traits": [
+      { "code": 14, "dataId": 16, "value": 1 },
+      { "code": 11, "dataId": 2, "value": 0.9 },
+      { "code": 11, "dataId": 3, "value": 0.9 },
+      { "code": 11, "dataId": 1, "value": 0.9 }
+    ],
+    "iconIndex": 263,
+    "name": "Casco de placas",
+    "note": "",
+    "params": [0, 0, 0, 20, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 25,
+    "atypeId": 4,
+    "description": "Una coraza de hierro chapado que ofrece una defensa\nmoderada. Sin hombreras, ofrece una buena movilidad.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 11, "dataId": 2, "value": 0.68 },
+      { "code": 11, "dataId": 3, "value": 0.8 },
+      { "code": 11, "dataId": 1, "value": 0.88 }
+    ],
+    "iconIndex": 236,
+    "name": "Coraza de hierro",
+    "note": "",
+    "params": [0, 0, 0, 30, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 26,
+    "atypeId": 3,
+    "description": "Una pata de lobo de las cavernas recién cortada. Se dice\nque da suerte, pero seguramente solo es charlatanería.",
+    "etypeId": 5,
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
+    "iconIndex": 286,
+    "name": "Pata de lobo de las cavernas",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 20],
+    "price": 0
+  },
+  {
+    "id": 27,
+    "atypeId": 3,
+    "description": "Un anillo mágico usado una vez por el gran Bethel. El\nanillo restaura la mente durante los encuentros.",
+    "etypeId": 5,
+    "traits": [{ "code": 22, "dataId": 8, "value": 0.1 }],
+    "iconIndex": 298,
+    "name": "Piedra del hechicero",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 28,
+    "atypeId": 3,
+    "description": "Un anillo maldito que se dice que detiene la sangre y\npreviene el sangrado. La única explicación es magia.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 14, "dataId": 5, "value": 1 },
+      { "code": 14, "dataId": 55, "value": 1 },
+      { "code": 14, "dataId": 56, "value": 1 },
+      { "code": 53, "dataId": 5, "value": 1 }
+    ],
+    "iconIndex": 297,
+    "name": "Anillo de la sangre quieta",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 29,
+    "atypeId": 3,
+    "description": "Anillo con un diamante de sangre. El diamante de sangre\nha visto tanta muerte que la fuerza vital se escapa.",
+    "etypeId": 5,
+    "traits": [{ "code": 22, "dataId": 7, "value": 0.08 }],
+    "iconIndex": 313,
+    "name": "Anillo de espectros",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 30,
+    "atypeId": 3,
+    "description": "Un anillo maldito de espinas que emite un flujo constante\nde veneno. Inmune a cantidades grandes de veneno.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 14, "dataId": 17, "value": 1 },
+      { "code": 53, "dataId": 5, "value": 1 }
+    ],
+    "iconIndex": 300,
+    "name": "Anillo de espinas",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 31,
+    "atypeId": 3,
+    "description": "Un casco de hierro que protege toda la cara, incluyendo\nojos.",
+    "etypeId": 3,
+    "traits": [
+      { "code": 14, "dataId": 87, "value": 1 },
+      { "code": 14, "dataId": 49, "value": 1 },
+      { "code": 11, "dataId": 2, "value": 0.9 },
+      { "code": 11, "dataId": 3, "value": 0.9 },
+      { "code": 11, "dataId": 1, "value": 0.9 }
+    ],
+    "iconIndex": 299,
+    "name": "Máscara de hierro",
+    "note": "",
+    "params": [0, 0, 0, 25, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 32,
+    "atypeId": 3,
+    "description": "Una mascota de la buena suerte y la fortuna. Que puedas\ncrearlo tú mismo funciona como un poderoso simbolismo.",
+    "etypeId": 5,
+    "traits": [],
+    "iconIndex": 314,
+    "name": "Cerdo de piña",
+    "note": "<Synthesis Ingredients>\nitem 26\nitem 27\n</Synthesis Ingredients>",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 12
+  },
+  {
+    "id": 33,
+    "atypeId": 4,
+    "description": "Una armadura plateada que ofrece una gran protección. la\narmadura tiene una insignia familiar de un pájaro.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 11, "dataId": 2, "value": 0.5 },
+      { "code": 11, "dataId": 3, "value": 0.65 },
+      { "code": 11, "dataId": 1, "value": 0.7 }
+    ],
+    "iconIndex": 302,
+    "name": "Armadura de placas demacrada",
+    "note": "",
+    "params": [0, 0, 0, 60, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 34,
+    "atypeId": 4,
+    "description": "Un casco militar de acero con protector facial. Ofrece\nprotección para la garganta, el cuello y toda la cabeza.",
+    "etypeId": 3,
+    "traits": [
+      { "code": 14, "dataId": 16, "value": 1 },
+      { "code": 11, "dataId": 2, "value": 0.85 },
+      { "code": 11, "dataId": 3, "value": 0.85 },
+      { "code": 11, "dataId": 1, "value": 0.85 }
+    ],
+    "iconIndex": 316,
+    "name": "Bacinete demacrado",
+    "note": "",
+    "params": [0, 0, 0, 30, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 35,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 36,
+    "atypeId": 3,
+    "description": "La ira condensada del Devorador de Cuervos. \nAumenta la fuerza de quien la sostiene.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 21, "dataId": 2, "value": 1.3 }
+    ],
+    "iconIndex": 274,
+    "name": "Alma de Cuervo",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 37,
+    "atypeId": 3,
+    "description": "El alma del Shakespeare de hierro potencia la defensa de\nquien lo sostiene.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 21, "dataId": 3, "value": 1.3 },
+      { "code": 11, "dataId": 2, "value": 0.7 },
+      { "code": 11, "dataId": 3, "value": 0.7 },
+      { "code": 11, "dataId": 1, "value": 0.7 }
+    ],
+    "iconIndex": 274,
+    "name": "Alma de Shakespeare de Hierro",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 38,
+    "atypeId": 3,
+    "description": "El alma del Salmonsnake da a su dueño una piel dura que \npreviene la perdida de extremidades y el sangrado",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 14, "dataId": 5, "value": 1 },
+      { "code": 14, "dataId": 22, "value": 1 },
+      { "code": 14, "dataId": 88, "value": 1 },
+      { "code": 14, "dataId": 55, "value": 1 },
+      { "code": 14, "dataId": 56, "value": 1 },
+      { "code": 14, "dataId": 14, "value": 1 },
+      { "code": 14, "dataId": 3, "value": 1 }
+    ],
+    "iconIndex": 274,
+    "name": "Alma de Salmonsnake",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 39,
+    "atypeId": 3,
+    "description": "El alma del Ángel Blanco le da a su dueño veloz\nmovimientos y un turno extra durante batallas.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 21, "dataId": 6, "value": 2 }
+    ],
+    "iconIndex": 274,
+    "name": "Alma del Ángel Blanco",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 40,
+    "atypeId": 3,
+    "description": "El alma de la Bruja Negra otorga a su dueño poderes\nocultos que envenenan al oponente.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 32, "dataId": 17, "value": 1 }
+    ],
+    "iconIndex": 274,
+    "name": "Alma de la Bruja Negra",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 41,
+    "atypeId": 3,
+    "description": "El alma de la Madre de las Cavernas le da a su dueño un\naumento de agresión.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 21, "dataId": 2, "value": 1.1 }
+    ],
+    "iconIndex": 274,
+    "name": "Alma de la Madre de las Cavernas",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 42,
+    "atypeId": 3,
+    "description": "El alma de la mariposa hace que sea más fácil evadir los\nataques con pasos ligeros como una pluma.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 1, "value": 0.5 }
+    ],
+    "iconIndex": 274,
+    "name": "Alma de la mariposa",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 43,
+    "atypeId": 3,
+    "description": "El alma del Viejo guardián. Un simple vistazo de la\ndeterminación que tenía el guardián. Evita que te mueras.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 14, "dataId": 1, "value": 1 }
+    ],
+    "iconIndex": 274,
+    "name": "Alma del viejo guardián",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 44,
+    "atypeId": 3,
+    "description": "Un trozo andrajoso del pañuelo rojo que usó el guardián.\nEsta bufanda demuestra que derrotaste al Viejo guardián.",
+    "etypeId": 3,
+    "traits": [],
+    "iconIndex": 310,
+    "name": "Bufanda roja",
+    "note": "",
+    "params": [0, 0, 0, 5, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 45,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 46,
+    "atypeId": 3,
+    "description": "Una gabardina gruesa hecha de cuero endurecido.\nGran protección contra ataques de fuego.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 11, "dataId": 4, "value": 0.4 },
+      { "code": 11, "dataId": 2, "value": 0.92 },
+      { "code": 11, "dataId": 3, "value": 0.92 },
+      { "code": 11, "dataId": 1, "value": 0.92 }
+    ],
+    "iconIndex": 301,
+    "name": "Gabardina",
+    "note": "",
+    "params": [0, 0, 0, 30, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 47,
+    "atypeId": 3,
+    "description": "Un collar de plata con una piedra del alma incrustada. La\npiedra te protege contra poderes de otro mundo.",
+    "etypeId": 5,
+    "traits": [{ "code": 11, "dataId": 6, "value": 0.7 }],
+    "iconIndex": 308,
+    "name": "Collar devorador de almas",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 20, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 48,
+    "atypeId": 3,
+    "description": "Hecho de piel desollada. Úsalo para esconder tu olor de \ncriaturas peludas y bestias por igual.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 3, "value": 0.97 },
+      { "code": 11, "dataId": 1, "value": 0.97 },
+      { "code": 11, "dataId": 2, "value": 0.97 }
+    ],
+    "iconIndex": 288,
+    "name": "Traje de Piel",
+    "note": "<Synthesis Ingredients>\nitem 151: 1\n</Synthesis Ingredients>",
+    "params": [0, 0, 0, 5, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 49,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 50,
+    "atypeId": 3,
+    "description": "Una lente simple que se usa en un ojo. Mejora ligeramente\nla precisión de su portador.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0.2 }
+    ],
+    "iconIndex": 88,
+    "name": "Monóculo",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 51,
+    "atypeId": 3,
+    "description": "Puedes ver el mundo más claro con estos. Mejora la\nprecisión de su portador en gran medida.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0.8 }
+    ],
+    "iconIndex": 87,
+    "name": "Lentes",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 52,
+    "atypeId": 3,
+    "description": "Una botella que contiene perfume oriental. el aroma\natrae monstruos y bestias de todo tipo.",
+    "etypeId": 5,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 13, "dataId": 100, "value": 1 }
+    ],
+    "iconIndex": 86,
+    "name": "Perfume oriental",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 53,
+    "atypeId": 3,
+    "description": "Una reliquia antigua que se dice que une tu alma a tu\ncuerpo en todas las situaciones.",
+    "etypeId": 5,
+    "traits": [{ "code": 14, "dataId": 30, "value": 1 }],
+    "iconIndex": 94,
+    "name": "Ancla espiritual",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 54,
+    "atypeId": 3,
+    "description": "Una armadura especial creada para los Caballeros de la\nPenitencia. Una ves equipada, ya no puede quitar.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 53, "dataId": 4, "value": 1 },
+      { "code": 11, "dataId": 2, "value": 0.5 },
+      { "code": 11, "dataId": 3, "value": 0.65 },
+      { "code": 11, "dataId": 1, "value": 0.7 },
+      { "code": 14, "dataId": 3, "value": 1 },
+      { "code": 14, "dataId": 14, "value": 1 }
+    ],
+    "iconIndex": 69,
+    "name": "Armadura de penitencia",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 55,
+    "atypeId": 3,
+    "description": "Una armadura especial creada para los Caballeros de la\nPenitencia. Una ves equipada, ya no puede quitar.",
+    "etypeId": 3,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 53, "dataId": 3, "value": 1 },
+      { "code": 14, "dataId": 16, "value": 1 },
+      { "code": 11, "dataId": 2, "value": 0.85 },
+      { "code": 11, "dataId": 3, "value": 0.85 },
+      { "code": 11, "dataId": 1, "value": 0.85 },
+      { "code": 14, "dataId": 87, "value": 1 },
+      { "code": 14, "dataId": 31, "value": 1 }
+    ],
+    "iconIndex": 68,
+    "name": "Armadura de penitencia",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 56,
+    "atypeId": 3,
+    "description": "Túnicas de seda del Lejano Oriente. Proporcionan\nprotección decente contra poderes de otro mundo.",
+    "etypeId": 4,
+    "traits": [
+      { "code": 22, "dataId": 1, "value": 0 },
+      { "code": 11, "dataId": 2, "value": 0.95 },
+      { "code": 11, "dataId": 3, "value": 0.95 },
+      { "code": 11, "dataId": 1, "value": 0.95 },
+      { "code": 11, "dataId": 6, "value": 0.7 },
+      { "code": 11, "dataId": 4, "value": 1.15 }
+    ],
+    "iconIndex": 125,
+    "name": "Túnicas de seda oriental",
+    "note": "",
+    "params": [0, 0, 0, 5, 0, 17, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 57,
+    "atypeId": 3,
+    "description": "Sombrero de granjero estilizado y endurecido que se usa\nen el lejano oriente. Modificado para usarse en batalla.",
+    "etypeId": 3,
+    "traits": [
+      { "code": 11, "dataId": 2, "value": 0.93 },
+      { "code": 11, "dataId": 3, "value": 0.93 },
+      { "code": 11, "dataId": 1, "value": 0.93 },
+      { "code": 11, "dataId": 6, "value": 0.93 }
+    ],
+    "iconIndex": 124,
+    "name": "Jingasa kabuto",
+    "note": "",
+    "params": [0, 0, 0, 13, 0, 6, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 58,
+    "atypeId": 3,
+    "description": "Amuleto que se dice que se ha caído de los errantes\nguerreros Yggaegetsu. Aumenta la tasa de golpes críticos.",
+    "etypeId": 5,
+    "traits": [{ "code": 22, "dataId": 2, "value": 0.2 }],
+    "iconIndex": 126,
+    "name": "Encanto del Yggaegetsu",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 59,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  },
+  {
+    "id": 60,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "price": 0
+  }
+]
