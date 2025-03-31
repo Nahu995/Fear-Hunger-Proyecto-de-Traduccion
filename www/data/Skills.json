@@ -2173,7 +2173,7 @@
       "type": 0,
       "variance": 20
     },
-    "description": "Tu velocidad de movimiento aumenta considerablemente. Correr \npuede resultar ser una habilidad realmente valiosa.",
+    "description": "Tu velocidad de movimiento aumenta considerablemente.\nCorrer puede resultar ser una habilidad realmente valiosa.",
     "effects": [],
     "hitType": 0,
     "iconIndex": 4,
